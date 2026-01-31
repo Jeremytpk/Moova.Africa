@@ -86,6 +86,6 @@ window.MOOVA_TRANSLATIONS_FR = {
     terms: "Conditions",
     help: "Centre d'aide",
     faq: "FAQ",
-    copyright: "Tous droits réservés. Alimenté par Jerttech."
+    copyright: "Tous droits réservés."
   }
 };
