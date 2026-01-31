@@ -3,10 +3,19 @@
 document.addEventListener('DOMContentLoaded', function() {
   // Language selector logic
   const langFrBtn = document.getElementById('lang-fr');
+  const langEnBtn = document.getElementById('lang-en');
+
   if (langFrBtn) {
     langFrBtn.addEventListener('click', function() {
       setLanguage('fr');
       applyTranslations('fr');
+    });
+  }
+
+  if (langEnBtn) {
+    langEnBtn.addEventListener('click', function() {
+      setLanguage('en');
+      window.location.reload();
     });
   }
 
@@ -258,9 +267,8 @@ function applyTranslations(lang) {
     if (footerSupportLinks[6]) footerSupportLinks[6].textContent = t.footer.help;
     if (footerSupportLinks[7]) footerSupportLinks[7].textContent = t.footer.faq;
     const copyright = document.querySelector('.footer-bottom p');
-    if (copyright) copyright.innerHTML = `&copy; 2025 Moova Africa. ${t.footer.copyright}`;
+    if (copyright) copyright.innerHTML = `&copy; 2025 Moova Africa. ${t.footer.copyright} Powered by Jerttech.`;
   }
-}
 }
 
 function getLanguage() {
