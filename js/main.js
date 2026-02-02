@@ -221,27 +221,35 @@ function applyTranslations(lang) {
   });
 
   // Page-specific translations
+  // Handle both with and without .html extension (for Netlify compatibility)
   switch(currentPage) {
     case 'index.html':
+    case 'index':
     case '':
       applyIndexTranslations(t);
       break;
     case 'about.html':
+    case 'about':
       applyAboutTranslations(t);
       break;
     case 'how-it-works.html':
+    case 'how-it-works':
       applyHowItWorksTranslations(t);
       break;
     case 'contact.html':
+    case 'contact':
       applyContactTranslations(t);
       break;
     case 'download.html':
+    case 'download':
       applyDownloadTranslations(t);
       break;
     case 'privacy-policy.html':
+    case 'privacy-policy':
       applyPrivacyPolicyTranslations(t);
       break;
     case 'terms-conditions.html':
+    case 'terms-conditions':
       applyTermsConditionsTranslations(t);
       break;
   }
