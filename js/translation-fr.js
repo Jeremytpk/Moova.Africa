@@ -477,7 +477,7 @@ window.MOOVA_TRANSLATIONS_FR = {
           "Vous désinscrire des communications marketing",
           "Exporter vos données"
         ],
-        contact: "Contactez-nous à privacy@moova.africa pour exercer ces droits."
+        contact: "Contactez-nous à privacy@moova.app pour exercer ces droits."
       },
       s7: {
         title: "7. Conservation des données",
@@ -494,8 +494,8 @@ window.MOOVA_TRANSLATIONS_FR = {
       s10: {
         title: "10. Nous contacter",
         intro: "Si vous avez des questions sur cette politique de confidentialité, veuillez nous contacter :",
-        email: "Email : privacy@moova.africa",
-        website: "Site web : www.moova.africa"
+        email: "Email : privacy@moova.app",
+        website: "Site web : www.moova.app"
       }
     },
     agreement: "En utilisant Moova, vous acceptez cette politique de confidentialité."
