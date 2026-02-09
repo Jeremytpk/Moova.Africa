@@ -510,16 +510,20 @@ window.MOOVA_TRANSLATIONS_FR = {
     intro: "Bienvenue sur Moova. Ces conditions générales régissent votre utilisation de notre application mobile et de nos services. En utilisant Moova, vous acceptez ces conditions.",
     sections: {
       s0: {
-        title: "0. Confidentialité, sécurité et restrictions de partage",
-        content: "Moova interdit les captures d'écran et l'enregistrement d'écran dans l'application. Le partage ou la lecture d'adresses email, de numéros de téléphone ou d'identifiants de paiement (tels que Zelle ou CashApp) est strictement interdit dans le chat et toutes les autres zones. Seules les photos envoyées comme preuve de colis sont autorisées ; tout autre partage de photos est interdit.",
+        title: "0. Confidentialité, Sécurité et Restrictions de Partage",
+        content: "Moova interdit les captures d'écran et l'enregistrement d'écran dans l'application. Le partage ou la lecture d'adresses e-mail, de numéros de téléphone ou d'identifiants de paiement (tels que Zelle ou CashApp) est strictement interdit dans le chat et toutes les autres zones. Seules les photos envoyées comme preuve de colis sont autorisées ; tout autre partage de photos est interdit.",
         warning: "La violation de ces règles peut entraîner la suspension ou la résiliation du compte."
       },
       s1: {
-        title: "1. Acceptation des conditions",
-        p1: "En accédant et en utilisant Moova, vous acceptez d'être lié par ces conditions générales. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser nos services.",
-        p2: "Ces conditions s'appliquent à tous les utilisateurs, y compris les voyageurs, les expéditeurs et les visiteurs."
+        title: "0.1 Directives Communautaires et Contenu Généré par les Utilisateurs",
+        content: "POLITIQUE DE TOLÉRANCE ZÉRO : Moova maintient une politique de tolérance zéro stricte pour le contenu répréhensible et les utilisateurs abusifs."
       },
       s2: {
+        title: "1. Acceptation des Conditions",
+        p1: "En accédant et en utilisant Moova, vous acceptez d'être lié par ces Conditions Générales. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser nos services.",
+        p2: "Ces conditions s'appliquent à tous les utilisateurs, y compris les voyageurs, les expéditeurs et les visiteurs."
+      },
+      s3: {
         title: "2. Éligibilité",
         intro: "Pour utiliser Moova, vous devez :",
         list: [
@@ -530,8 +534,8 @@ window.MOOVA_TRANSLATIONS_FR = {
         ],
         responsibility: "Vous êtes responsable du maintien de la confidentialité de vos identifiants de compte."
       },
-      s3: {
-        title: "3. Comptes utilisateurs",
+      s4: {
+        title: "3. Comptes Utilisateurs",
         intro: "Lors de la création d'un compte, vous acceptez de :",
         list: [
           "Fournir des informations exactes, actuelles et complètes",
@@ -540,10 +544,10 @@ window.MOOVA_TRANSLATIONS_FR = {
           "Nous informer immédiatement de toute utilisation non autorisée",
           "Être responsable de toutes les activités sous votre compte"
         ],
-        reserve: "Nous nous réservons le droit de suspendre ou de résilier les comptes qui violent ces conditions."
+        reserve: "Nous nous réservons le droit de suspendre ou résilier les comptes qui violent ces conditions."
       },
-      s4: {
-        title: "4. Responsabilités des voyageurs",
+      s5: {
+        title: "4. Responsabilités des Voyageurs",
         intro: "En tant que voyageur, vous acceptez de :",
         list: [
           "Représenter avec précision votre capacité de bagages disponible",
@@ -553,10 +557,10 @@ window.MOOVA_TRANSLATIONS_FR = {
           "Fournir des informations de paiement valides (Zelle ou CashApp)",
           "Ne pas transporter d'articles illégaux, interdits ou dangereux"
         ],
-        responsibility: "Les voyageurs sont responsables du respect des lois internationales sur l'expédition."
+        responsibility: "Les voyageurs sont responsables du respect des lois d'expédition internationales."
       },
-      s5: {
-        title: "5. Responsabilités des expéditeurs",
+      s6: {
+        title: "5. Responsabilités des Expéditeurs",
         intro: "En tant qu'expéditeur, vous acceptez de :",
         list: [
           "Décrire avec précision le contenu et le poids du colis",
@@ -564,24 +568,24 @@ window.MOOVA_TRANSLATIONS_FR = {
           "Respecter toutes les réglementations douanières et d'expédition",
           "Fournir des informations de livraison exactes",
           "Payer le montant convenu plus les frais applicables",
-          "Respecter les termes et conditions du voyageur"
+          "Respecter les conditions générales du voyageur"
         ],
         responsibility: "Les expéditeurs sont seuls responsables du contenu des colis et du respect des lois."
       },
-      s6: {
-        title: "6. Paiements et frais",
+      s7: {
+        title: "6. Paiements et Frais",
         intro: "Conditions de paiement :",
         list: [
-          "Les expéditeurs paient le prix de base plus des frais de service échelonnés ($3.70-$7.00)",
-          "La plateforme facture aux voyageurs une commission de 8% sur le prix de base",
-          "Les voyageurs reçoivent 60% de leurs gains après 24 heures",
-          "Les 40% restants sont libérés à la confirmation de la livraison",
-          "Tous les paiements sont traités de manière sécurisée via Stripe"
+          "Les expéditeurs paient le prix de base plus des frais de service échelonnés (3,70 $ à 7,00 $)",
+          "La plateforme facture aux voyageurs 8 % de commission sur le prix de base",
+          "Les voyageurs reçoivent 60 % des gains après 24 heures",
+          "Les 40 % restants sont libérés à la confirmation de livraison",
+          "Tous les paiements sont traités en toute sécurité via Stripe"
         ],
-        noRefund: "Les frais ne sont pas remboursables sauf en cas de défaillance du service ou comme requis par la loi."
+        noRefund: "Les frais ne sont pas remboursables sauf en cas de défaillance du service ou si la loi l'exige."
       },
-      s7: {
-        title: "7. Articles interdits",
+      s8: {
+        title: "7. Articles Interdits",
         intro: "Les articles suivants sont strictement interdits :",
         list: [
           "Substances illégales ou contrebande",
@@ -589,13 +593,12 @@ window.MOOVA_TRANSLATIONS_FR = {
           "Denrées périssables sans emballage approprié",
           "Animaux vivants",
           "Biens volés",
-          "Argent liquide et devises",
           "Articles qui violent les réglementations douanières ou aériennes"
         ],
         warning: "La violation peut entraîner la résiliation du compte et des poursuites judiciaires."
       },
-      s8: {
-        title: "8. Responsabilité et exclusions",
+      s9: {
+        title: "8. Responsabilité et Dénis",
         intro: "Moova fournit une plateforme pour connecter les utilisateurs. Nous ne sommes pas responsables de :",
         list: [
           "Colis perdus, endommagés ou retardés",
@@ -604,44 +607,46 @@ window.MOOVA_TRANSLATIONS_FR = {
           "Exactitude des informations fournies par les utilisateurs",
           "Services tiers (Stripe, Firebase)"
         ],
-        warning: "L'UTILISATION DE MOOVA EST À VOS PROPRES RISQUES. LES SERVICES SONT FOURNIS 'TELS QUELS' SANS GARANTIE D'AUCUNE SORTE."
+        warning: "L'UTILISATION DE MOOVA EST À VOS PROPRES RISQUES. LES SERVICES SONT FOURNIS \"EN L'ÉTAT\" SANS GARANTIES D'AUCUNE SORTE."
       },
-      s9: {
-        title: "9. Limitation de responsabilité",
-        intro: "Dans la mesure maximale permise par la loi, Moova ne sera pas responsable de :",
+      s10: {
+        title: "9. Limitation de Responsabilité",
+        intro: "Dans la mesure maximale autorisée par la loi, Moova ne sera pas responsable de :",
         list: [
           "Dommages indirects, accessoires ou consécutifs",
           "Perte de profits, de données ou d'opportunités commerciales",
           "Dommages dépassant les frais payés au cours des 12 derniers mois"
         ],
-        note: "Certaines juridictions n'autorisent pas les limitations de responsabilité, donc celles-ci peuvent ne pas s'appliquer à vous."
+        note: "Certaines juridictions n'autorisent pas les limitations de responsabilité, celles-ci peuvent donc ne pas s'appliquer à vous."
       },
-      s10: {
-        title: "10. Résolution des litiges",
+      s11: {
+        title: "10. Résolution des Litiges",
         intro: "En cas de litiges :",
         list: [
           "Les utilisateurs doivent d'abord tenter de résoudre directement",
-          "Contactez le support Moova à support@moova.africa",
-          "La médiation peut être requise avant toute action en justice"
+          "Contacter le support Moova à support@moova.app",
+          "La médiation peut être requise avant toute action en justice",
+          "Litiges régis par la loi de [Juridiction]",
+          "Accord d'arbitrage [le cas échéant]"
         ],
         deadline: "Les litiges de paiement doivent être signalés dans les 30 jours."
       },
-      s11: {
-        title: "11. Propriété intellectuelle",
-        intro: "Tout le contenu, les marques et la propriété intellectuelle sur Moova appartiennent à Moova Africa / Jerttech. Vous ne pouvez pas :",
+      s12: {
+        title: "11. Propriété Intellectuelle",
+        intro: "Tout le contenu, les marques et la propriété intellectuelle sur Moova appartiennent à Moova, Inc. Vous ne pouvez pas :",
         list: [
           "Copier, modifier ou distribuer notre contenu",
-          "Utiliser nos marques sans permission",
-          "Désassembler notre logiciel",
+          "Utiliser nos marques sans autorisation",
+          "Effectuer de l'ingénierie inverse de notre logiciel",
           "Créer des œuvres dérivées"
         ],
-        note: "Le contenu généré par les utilisateurs reste votre propriété, mais vous nous accordez une licence pour l'utiliser dans le cadre du fonctionnement du service."
-      },
-      s12: {
-        title: "12. Vie privée",
-        content: "Votre vie privée est importante pour nous. Notre Politique de confidentialité explique comment nous collectons, utilisons et protégeons vos informations. En utilisant Moova, vous consentez à nos pratiques de données telles que décrites dans la Politique de confidentialité."
+        note: "Le contenu généré par les utilisateurs reste votre propriété, mais vous nous accordez une licence pour l'utiliser pour le fonctionnement du service."
       },
       s13: {
+        title: "12. Confidentialité",
+        content: "Votre vie privée est importante pour nous. Notre Politique de Confidentialité explique comment nous collectons, utilisons et protégeons vos informations. En utilisant Moova, vous consentez à nos pratiques de données décrites dans la Politique de Confidentialité."
+      },
+      s14: {
         title: "13. Résiliation",
         intro: "Nous pouvons suspendre ou résilier votre compte si vous :",
         list: [
@@ -653,16 +658,16 @@ window.MOOVA_TRANSLATIONS_FR = {
         ],
         note: "Vous pouvez fermer votre compte à tout moment via les paramètres de l'application."
       },
-      s14: {
-        title: "14. Modifications des conditions",
+      s15: {
+        title: "14. Modifications des Conditions",
         content: "Nous nous réservons le droit de modifier ces conditions à tout moment. Nous informerons les utilisateurs des changements importants par email ou notification dans l'application. L'utilisation continue après les modifications constitue une acceptation des nouvelles conditions."
       },
-      s15: {
-        title: "15. Informations de contact",
-        intro: "Pour toute question concernant ces conditions, contactez-nous :",
-        email: "Email : legal@moova.africa",
-        support: "Support : support@moova.africa",
-        website: "Site web : www.moova.africa"
+      s16: {
+        title: "15. Informations de Contact",
+        intro: "Pour des questions sur ces conditions, contactez-nous :",
+        email: "Email : legal@moova.app",
+        support: "Support : support@moova.app",
+        website: "Site web : www.moova.app"
       }
     },
     agreement: "En utilisant Moova, vous acceptez ces conditions générales."
